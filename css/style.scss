@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 4.4rem;
+  border-bottom: 2px solid rgb(228, 228, 228);
+
+  span {
+    float: left;
+    display: inline;
+
+    #logo {
+      margin: 1rem 2.5rem;
+      width: 60px;
+      height: 35px;
+    }
+
+    a {
+      
+      padding: 1.5rem;
+    }
+  }
+}
