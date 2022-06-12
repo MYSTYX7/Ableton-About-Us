@@ -8,19 +8,19 @@ header {
   height: 4.4rem;
   border-bottom: 2px solid rgb(228, 228, 228);
 
-  span {
-    float: left;
-    display: inline;
+  .header-container {
+    display: flex;
 
     #logo {
       margin: 1rem 2.5rem;
       width: 60px;
       height: 35px;
     }
-
-    a {
-      display: inline-block;
-      padding: 1.5rem;
-    }
   }
+
+  //   a {
+  //     display: inline-block;
+  //     padding: 1.5rem;
+  //   }
+  // }
 }
